@@ -1,13 +1,15 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-  Search,
-  Plus,
-  Mail,
-  Phone,
-  Building2,
-  UserRound,
-  BadgeCheck,
+    User,
+    ArrowRight,
+    Search,
+    Plus,
+    Mail,
+    Phone,
+    Building2,
+    UserRound,
+    BadgeCheck,
 } from "lucide-react";
 
 import UserForm from "../components/UserForm";
