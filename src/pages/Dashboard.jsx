@@ -1,18 +1,19 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import {
-    User, Plus, Mail,
-
-
-    Phone,
-    Building2,
-    ArrowRight,
-    UserRound,
-    BadgeCheck,
+  Search,
+  Plus,
+  Mail,
+  Phone,
+  Building2,
+  UserRound,
+  BadgeCheck,
 } from "lucide-react";
+
+import UserForm from "../components/UserForm";
 import { UserContext } from "../context/UserContext";
 import SearchBar from "../components/SearchBar";
-import UserForm from "../components/UserForm";
+
 const Dashboard = () => {
     const [search, setSearch] = useState("");
     const { users } = useContext(UserContext);
